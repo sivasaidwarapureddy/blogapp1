@@ -55,11 +55,17 @@ Follow these steps to set up and run BlogApp locally:
 6. Start the frontend development server: cd ../client npm startAPI Endpoints 🛣️
 
 Blog Routes:
-      Method	Endpoint	          Description
-      GET	    /api/blogs	        Fetch all blogs
-      GET	    /api/blogs/:id	    Fetch a single blog by ID
-      POST	  /api/blogs	        Create a new blog
-      PUT    	/api/blogs/:id	    Update a blog by ID
-      DELETE	/api/blogs/:id	    Delete a blog by ID
+    # Blog API Endpoints
+
+This section describes the available endpoints for the Blog API.
+
+| Method | Endpoint            | Description                      |
+|--------|---------------------|----------------------------------|
+| GET    | `/api/blogs`         | Fetch all blogs                  |
+| GET    | `/api/blogs/:id`     | Fetch a single blog by ID        |
+| POST   | `/api/blogs`         | Create a new blog                |
+| PUT    | `/api/blogs/:id`     | Update a blog by ID              |
+| DELETE | `/api/blogs/:id`     | Delete a blog by ID              |
+
 
 
