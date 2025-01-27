@@ -1,0 +1,27 @@
+# Node.js
+node_modules/
+.env
+
+# Build Output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.idea/
+.vscode/
+*.swp
+
+# Specific to API
+api/node_modules/
+
+# Specific to Client
+client/node_modules/
+client/build/
